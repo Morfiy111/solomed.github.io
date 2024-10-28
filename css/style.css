@@ -283,15 +283,21 @@ button.btn-close {
     .footer-links {
         margin-right: 15px;
     }
+
+    .header-top-block {
+        flex-wrap: wrap;
+    }
 }
 
 @media(max-width: 767px) {
     .navbar-expand-md {
         justify-content: flex-end;
+        width: 50%;
     }
 
     .navbar-dark .navbar-toggler {
-        border: 2px solid #fff;
+        border: 2px solid #2d7276;
+        background-color: #2d7276;
     }
 
     .header-top-block {
