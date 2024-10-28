@@ -181,6 +181,90 @@ button.btn-close {
     color: #2d7276;
 }
 
+.footer-page {
+    background-color: #064240;
+    padding: 40px 0;
+}
+
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    align-items: flex-start;
+}
+
+.footer-flex-block .header-logo {
+    width: 161px;
+}
+
+.footer-flex-block .header-logo img {
+    width: 100%;
+}
+
+.footer-flex-block a {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-address-item {
+    text-align: right;
+}
+
+.footer-address-social {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+}
+
+.footer-address-social a {
+    margin-left: 10px;
+}
+
+.text-paragraph {
+    margin-bottom: 40px;
+}
+
+.green-block {
+    background-color: #c0dec3;
+    padding: 40px 0;
+}
+
+.advantages-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages-block-left,
+.advantages-block-right {
+    width: 50%;
+    color: #fff;
+    padding: 25px;
+}
+
+.advantages-block-left {
+    background-color: #064240;
+}
+
+.advantages-block-right {
+    background-color: #0e7b60;
+}
+
+.advantages-block-left h4,
+.advantages-block-right h4 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.advantages-block {
+    margin-bottom: 40px;
+}
+
+.text-center {
+    margin-bottom: 40px;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 1rem;
