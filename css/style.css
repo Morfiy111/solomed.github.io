@@ -364,6 +364,16 @@ button.btn-close {
         background-color: #fff;
         padding: 15px;
     }
+
+    .mobile-map-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact-block {
+        position: inherit;
+        width: 100%;
+    }
 }
 
 @media(max-width: 500px) {
