@@ -117,7 +117,7 @@ button.btn-close {
     border: 2px solid #2d7276;
     font-size: 16px;
     border-radius: 10px;
-    padding: 16px 25px;
+    padding: 10px 25px;
     color: #fff;
     outline: none;
     font-weight: 600;
@@ -265,6 +265,45 @@ button.btn-close {
     margin-bottom: 40px;
 }
 
+.visible-xs {
+    display: none;
+}
+
+.footer-politics a,
+.footer-politics,
+.footer-copyright,
+.footer-copyright a {
+    color: #fff;
+}
+
+.footer-copyright {
+    font-size: 12px;
+}
+
+.map-block {
+    position: relative;
+}
+
+.contact-block {
+    position: absolute;
+    z-index: 1;
+    top: 86px;
+    padding: 15px;
+    background-color: rgb(100%, 100%, 100%, 0.7);
+
+    width: 457px;
+}
+
+.contact-block h3 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-block i {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 1rem;
@@ -287,12 +326,16 @@ button.btn-close {
     .header-top-block {
         flex-wrap: wrap;
     }
+
+    .header-top-block {
+        padding: 20px 0 300px 0;
+    }
 }
 
 @media(max-width: 767px) {
     .navbar-expand-md {
         justify-content: flex-end;
-        width: 50%;
+        width: 100%;
     }
 
     .navbar-dark .navbar-toggler {
@@ -304,4 +347,31 @@ button.btn-close {
         flex-wrap: wrap;
     }
 
+    .advantages-block-left,
+    .advantages-block-right {
+        width: 100%;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+
+    .visible-xs {
+        display: block;
+    }
+
+    .navbar-collapse {
+        background-color: #fff;
+        padding: 15px;
+    }
+}
+
+@media(max-width: 500px) {
+    .logo-block {
+        width: 140px;
+    }
+
+    .button-green-main {
+        padding: 10px;
+    }
 }
