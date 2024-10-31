@@ -374,6 +374,14 @@ button.btn-close {
         position: inherit;
         width: 100%;
     }
+
+    .advantages-block-right:nth-child(3) {
+        background-color: #064240;
+    }
+
+    .advantages-block-left:nth-child(4) {
+        background-color: #0e7b60;
+    }
 }
 
 @media(max-width: 500px) {
@@ -383,5 +391,19 @@ button.btn-close {
 
     .button-green-main {
         padding: 10px;
+    }
+
+    .footer-flex-block .header-logo {
+        width: 100%;
+    }
+
+    .footer-flex-block .header-logo img {
+        width: 161px;
+    }
+}
+
+@media(max-width: 341px) {
+    .footer-address-social {
+        justify-content: flex-start;
     }
 }
