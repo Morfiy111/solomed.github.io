@@ -117,15 +117,17 @@ button.btn-close {
     border: 2px solid #2d7276;
     font-size: 16px;
     border-radius: 10px;
-    padding: 10px 25px;
+    padding: 10px 20px;
     color: #fff;
     outline: none;
     font-weight: 600;
+    line-height: initial;
 }
 
 .button-green-main:hover {
     background-color: #fff;
     color: #2d7276;
+    border: 2px solid #2d7276;
 }
 
 .logo-block a:hover {
@@ -304,6 +306,47 @@ button.btn-close {
     margin-right: 10px;
 }
 
+.catalog-set-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.catalog-item {
+    width: 24%;
+    transition: all .3s linear;
+    margin-bottom: 30px;
+    box-shadow: 5px 6px 32px -12px #333;
+    padding: 20px;
+}
+
+.catalog-item:hover {
+    box-shadow: 0px 2px 64px -13px #333;
+}
+
+.catalog-item-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.catalog-item-image img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-catalog-btn {
+    margin: 15px 0;
+}
+
+.catalog-item-description-row span {
+    font-weight: bold;
+}
+
+.text-left {
+    text-align: left;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 1rem;
@@ -311,7 +354,11 @@ button.btn-close {
     }
 }
 
-@media(max-width:1199px) {}
+@media(max-width:1199px) {
+    .main-catalog-btn .button-green-main {
+        margin-bottom: 20px;
+    }
+}
 
 @media(max-width: 991px) {
 
@@ -329,6 +376,14 @@ button.btn-close {
 
     .header-top-block {
         padding: 20px 0 300px 0;
+    }
+
+    .main-catalog-btn .button-green-main {
+        margin-bottom: 10px;
+    }
+
+    .catalog-item {
+        width: 48%;
     }
 }
 
@@ -381,6 +436,10 @@ button.btn-close {
 
     .advantages-block-left:nth-child(4) {
         background-color: #0e7b60;
+    }
+
+    .catalog-item {
+        width: 100%;
     }
 }
 
